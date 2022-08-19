@@ -16,6 +16,7 @@ import (
 	io "io"
 	math "math"
 	math_bits "math/bits"
+	"sync"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -34,6 +35,17 @@ type PostSpansRequest struct {
 	XXX_NoUnkeyedLiteral struct{}    `json:"-"`
 	XXX_unrecognized     []byte      `json:"-"`
 	XXX_sizecache        int32       `json:"-"`
+}
+
+var postSpansRequestPool sync.Pool = sync.Pool{New: func() interface{} {
+	return &PostSpansRequest{}
+}}
+
+func (m *PostSpansRequest) Free() {
+	defer postSpansRequestPool.Put(m)
+	m.Batch.Free()
+	m.XXX_unrecognized = m.XXX_unrecognized[:0]
+	m.XXX_sizecache = 0
 }
 
 func (m *PostSpansRequest) Reset()         { *m = PostSpansRequest{} }
@@ -193,7 +205,7 @@ func RegisterCollectorServiceServer(s *grpc.Server, srv CollectorServiceServer) 
 }
 
 func _CollectorService_PostSpans_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
-	in := new(PostSpansRequest)
+	in := postSpansRequestPool.Get().(*PostSpansRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}

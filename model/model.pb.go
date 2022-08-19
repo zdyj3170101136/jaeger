@@ -14,6 +14,7 @@ import (
 	io "io"
 	math "math"
 	math_bits "math/bits"
+	"sync"
 	time "time"
 )
 
@@ -287,6 +288,10 @@ func (m *SpanRef) GetRefType() SpanRefType {
 	return SpanRefType_CHILD_OF
 }
 
+var processPool = sync.Pool{New: func() interface{} {
+	return &Process{}
+}}
+
 type Process struct {
 	ServiceName          string     `protobuf:"bytes,1,opt,name=service_name,json=serviceName,proto3" json:"service_name,omitempty"`
 	Tags                 []KeyValue `protobuf:"bytes,2,rep,name=tags,proto3" json:"tags"`
@@ -295,7 +300,15 @@ type Process struct {
 	XXX_sizecache        int32      `json:"-"`
 }
 
-func (m *Process) Reset()         { *m = Process{} }
+func (m *Process) Free() {
+	defer processPool.Put(m)
+	m.XXX_unrecognized = m.XXX_unrecognized[:0]
+	m.XXX_sizecache = 0
+	m.Tags = m.Tags[:0]
+}
+
+func (m *Process) Reset() { *m = Process{} }
+
 func (m *Process) String() string { return proto.CompactTextString(m) }
 func (*Process) ProtoMessage()    {}
 func (*Process) Descriptor() ([]byte, []int) {
@@ -342,6 +355,10 @@ func (m *Process) GetTags() []KeyValue {
 	return nil
 }
 
+var spanPool = sync.Pool{New: func() interface{} {
+	return &Span{}
+}}
+
 type Span struct {
 	TraceID              TraceID       `protobuf:"bytes,1,opt,name=trace_id,json=traceId,proto3,customtype=TraceID" json:"trace_id"`
 	SpanID               SpanID        `protobuf:"bytes,2,opt,name=span_id,json=spanId,proto3,customtype=SpanID" json:"span_id"`
@@ -358,6 +375,19 @@ type Span struct {
 	XXX_NoUnkeyedLiteral struct{}      `json:"-"`
 	XXX_unrecognized     []byte        `json:"-"`
 	XXX_sizecache        int32         `json:"-"`
+}
+
+func (m *Span) Free() {
+	defer spanPool.Put(m)
+	m.References = m.References[:0]
+	m.Flags = 0
+	m.Tags = m.Tags[:0]
+	m.Logs = m.Logs[:0]
+	m.Process.Free()
+	m.Process = nil
+	m.Warnings = m.Warnings[:0]
+	m.XXX_unrecognized = m.XXX_unrecognized[:0]
+	m.XXX_sizecache = 0
 }
 
 func (m *Span) Reset()         { *m = Span{} }
@@ -589,6 +619,17 @@ type Batch struct {
 	XXX_NoUnkeyedLiteral struct{} `json:"-"`
 	XXX_unrecognized     []byte   `json:"-"`
 	XXX_sizecache        int32    `json:"-"`
+}
+
+func (m *Batch) Free() {
+	for i := range m.Spans {
+		m.Spans[i].Free()
+	}
+	m.Spans = m.Spans[:0]
+	m.Process.Free()
+	m.Process = nil
+	m.XXX_unrecognized = m.XXX_unrecognized[:0]
+	m.XXX_sizecache = 0
 }
 
 func (m *Batch) Reset()         { *m = Batch{} }
@@ -2688,7 +2729,7 @@ func (m *Span) Unmarshal(dAtA []byte) error {
 				return io.ErrUnexpectedEOF
 			}
 			if m.Process == nil {
-				m.Process = &Process{}
+				m.Process = processPool.Get().(*Process)
 			}
 			if err := m.Process.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
 				return err
@@ -2838,7 +2879,7 @@ func (m *Trace) Unmarshal(dAtA []byte) error {
 			if postIndex > l {
 				return io.ErrUnexpectedEOF
 			}
-			m.Spans = append(m.Spans, &Span{})
+			m.Spans = append(m.Spans, spanPool.Get().(*Span))
 			if err := m.Spans[len(m.Spans)-1].Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
 				return err
 			}
@@ -3105,7 +3146,7 @@ func (m *Batch) Unmarshal(dAtA []byte) error {
 			if postIndex > l {
 				return io.ErrUnexpectedEOF
 			}
-			m.Spans = append(m.Spans, &Span{})
+			m.Spans = append(m.Spans, spanPool.Get().(*Span))
 			if err := m.Spans[len(m.Spans)-1].Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
 				return err
 			}
@@ -3140,7 +3181,7 @@ func (m *Batch) Unmarshal(dAtA []byte) error {
 				return io.ErrUnexpectedEOF
 			}
 			if m.Process == nil {
-				m.Process = &Process{}
+				m.Process = processPool.Get().(*Process)
 			}
 			if err := m.Process.Unmarshal(dAtA[iNdEx:postIndex]); err != nil {
 				return err
