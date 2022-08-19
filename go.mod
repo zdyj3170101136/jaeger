@@ -31,7 +31,7 @@ require (
 	github.com/hashicorp/go-plugin v1.4.4
 	github.com/kr/pretty v0.3.0
 	github.com/olivere/elastic v6.2.37+incompatible
-	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.57.2
+	github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.56.0
 	github.com/opentracing-contrib/go-grpc v0.0.0-20191001143057-db30781987df
 	github.com/opentracing-contrib/go-stdlib v1.0.0
 	github.com/opentracing/opentracing-go v1.2.0
@@ -47,9 +47,9 @@ require (
 	github.com/uber/jaeger-client-go v2.30.0+incompatible
 	github.com/uber/jaeger-lib v2.4.1+incompatible
 	github.com/xdg-go/scram v1.1.1
-	go.opentelemetry.io/collector v0.57.2
-	go.opentelemetry.io/collector/pdata v0.57.2
-	go.opentelemetry.io/collector/semconv v0.57.2
+	go.opentelemetry.io/collector v0.56.0
+	go.opentelemetry.io/collector/pdata v0.56.0
+	go.opentelemetry.io/collector/semconv v0.56.0
 	go.opentelemetry.io/otel v1.9.0
 	go.uber.org/atomic v1.9.0
 	go.uber.org/automaxprocs v1.5.1
@@ -148,11 +148,3 @@ require (
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace go.opentelemetry.io/collector v0.57.2 => go.opentelemetry.io/collector v0.56.0
-
-replace go.opentelemetry.io/collector/pdata v0.57.2 => go.opentelemetry.io/collector/pdata v0.56.0
-
-replace go.opentelemetry.io/collector/semconv v0.57.2 => go.opentelemetry.io/collector/semconv v0.56.0
-
-replace github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.57.2 => github.com/open-telemetry/opentelemetry-collector-contrib/pkg/translator/jaeger v0.56.0
