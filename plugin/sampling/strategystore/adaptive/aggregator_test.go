@@ -21,8 +21,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/storage/samplingstore/mocks"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore/mocks"
 )
 
 const (

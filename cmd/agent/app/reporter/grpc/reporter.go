@@ -23,13 +23,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	zipkin2 "github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer/zipkin"
-	"github.com/jaegertracing/jaeger/model"
-	jConverter "github.com/jaegertracing/jaeger/model/converter/thrift/jaeger"
-	"github.com/jaegertracing/jaeger/model/converter/thrift/zipkin"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	thrift "github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	zipkin2 "github.com/zdyj3170101136/jaeger/cmd/collector/app/sanitizer/zipkin"
+	"github.com/zdyj3170101136/jaeger/model"
+	jConverter "github.com/zdyj3170101136/jaeger/model/converter/thrift/jaeger"
+	"github.com/zdyj3170101136/jaeger/model/converter/thrift/zipkin"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2"
+	thrift "github.com/zdyj3170101136/jaeger/thrift-gen/jaeger"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 // Reporter reports data to collector over gRPC.

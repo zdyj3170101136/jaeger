@@ -24,9 +24,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/status"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 // Query represents a jaeger-query's query for trace-id

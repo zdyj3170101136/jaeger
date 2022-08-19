@@ -22,11 +22,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	protometrics "github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
-	. "github.com/jaegertracing/jaeger/storage/metricsstore/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore/mocks"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	protometrics "github.com/zdyj3170101136/jaeger/proto-gen/api_v2/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore"
+	. "github.com/zdyj3170101136/jaeger/storage/metricsstore/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore/mocks"
 )
 
 func TestSuccessfulUnderlyingCalls(t *testing.T) {

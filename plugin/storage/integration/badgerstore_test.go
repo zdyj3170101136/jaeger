@@ -22,9 +22,9 @@ import (
 	assert "github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/badger"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/badger"
 )
 
 type BadgerIntegrationStorage struct {

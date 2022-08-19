@@ -29,11 +29,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin/storage/badger"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/badger"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 func TestWriteReadBack(t *testing.T) {

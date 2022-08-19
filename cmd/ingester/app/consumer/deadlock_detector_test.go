@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
 )
 
 func TestClosingSignalEmitted(t *testing.T) {

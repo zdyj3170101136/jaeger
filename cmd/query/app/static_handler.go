@@ -31,9 +31,9 @@ import (
 	"github.com/gorilla/mux"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/ui"
-	"github.com/jaegertracing/jaeger/pkg/fswatcher"
-	"github.com/jaegertracing/jaeger/pkg/version"
+	"github.com/zdyj3170101136/jaeger/cmd/query/app/ui"
+	"github.com/zdyj3170101136/jaeger/pkg/fswatcher"
+	"github.com/zdyj3170101136/jaeger/pkg/version"
 )
 
 var (

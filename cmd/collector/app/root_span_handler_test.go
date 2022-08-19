@@ -21,7 +21,7 @@ import (
 	"go.uber.org/atomic"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 type mockAggregator struct {

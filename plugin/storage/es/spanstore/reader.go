@@ -29,11 +29,11 @@ import (
 	otlog "github.com/opentracing/opentracing-go/log"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/spanstore/dbmodel"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/es"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/es/spanstore/dbmodel"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 const (

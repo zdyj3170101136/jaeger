@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/jaegertracing/jaeger/pkg/cassandra/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/cassandra/mocks"
 )
 
 func TestGetDependencyVersionV1(t *testing.T) {

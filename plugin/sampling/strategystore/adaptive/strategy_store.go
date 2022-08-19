@@ -17,11 +17,11 @@ package adaptive
 import (
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/distributedlock"
-	"github.com/jaegertracing/jaeger/pkg/hostname"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin/sampling/leaderelection"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
+	"github.com/zdyj3170101136/jaeger/pkg/distributedlock"
+	"github.com/zdyj3170101136/jaeger/pkg/hostname"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin/sampling/leaderelection"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
 )
 
 // NewStrategyStore creates a strategy store that holds adaptive sampling strategies.

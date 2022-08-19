@@ -26,13 +26,13 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/cassandra"
-	"github.com/jaegertracing/jaeger/pkg/cassandra/mocks"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/cassandra"
+	"github.com/zdyj3170101136/jaeger/pkg/cassandra/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/storage/dependencystore"
 )
 
 type depStorageTest struct {

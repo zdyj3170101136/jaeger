@@ -20,9 +20,9 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/plugin"
-	prometheusstore "github.com/jaegertracing/jaeger/plugin/metrics/prometheus/metricsstore"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	prometheusstore "github.com/zdyj3170101136/jaeger/plugin/metrics/prometheus/metricsstore"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore"
 )
 
 var _ plugin.Configurable = (*Factory)(nil)

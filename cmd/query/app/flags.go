@@ -28,13 +28,13 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model/adjuster"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/ports"
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/zdyj3170101136/jaeger/cmd/query/app/querysvc"
+	"github.com/zdyj3170101136/jaeger/model/adjuster"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/tenancy"
+	"github.com/zdyj3170101136/jaeger/ports"
+	"github.com/zdyj3170101136/jaeger/storage"
 )
 
 const (
@@ -142,7 +142,8 @@ func (qOpts *QueryOptions) BuildQueryServiceOptions(storageFactory storage.Facto
 }
 
 // stringSliceAsHeader parses a slice of strings and returns a http.Header.
-//  Each string in the slice is expected to be in the format "key: value"
+//
+//	Each string in the slice is expected to be in the format "key: value"
 func stringSliceAsHeader(slice []string) (http.Header, error) {
 	if len(slice) == 0 {
 		return nil, nil

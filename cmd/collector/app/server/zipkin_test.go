@@ -27,11 +27,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
-	"github.com/jaegertracing/jaeger/ports"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/handler"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/healthcheck"
+	"github.com/zdyj3170101136/jaeger/ports"
 )
 
 // test wrong port number

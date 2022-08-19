@@ -20,7 +20,7 @@ import (
 	"github.com/hashicorp/go-plugin"
 	"google.golang.org/grpc"
 
-	_ "github.com/jaegertracing/jaeger/pkg/gogocodec" // force gogo codec registration
+	_ "github.com/zdyj3170101136/jaeger/pkg/gogocodec" // force gogo codec registration
 )
 
 // Ensure plugin.GRPCPlugin API match.

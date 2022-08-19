@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/pkg/es/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/es"
+	"github.com/zdyj3170101136/jaeger/pkg/es/mocks"
 )
 
 //go:embed fixtures/*.json

@@ -20,10 +20,10 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/storage"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	"github.com/zdyj3170101136/jaeger/storage"
 )
 
 var _ plugin.Configurable = (*Factory)(nil)

@@ -21,11 +21,11 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/plugin/metrics/disabled"
-	"github.com/jaegertracing/jaeger/plugin/metrics/prometheus"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	"github.com/zdyj3170101136/jaeger/plugin/metrics/disabled"
+	"github.com/zdyj3170101136/jaeger/plugin/metrics/prometheus"
+	"github.com/zdyj3170101136/jaeger/storage"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore"
 )
 
 const (

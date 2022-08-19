@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metrics/fork"
-	"github.com/jaegertracing/jaeger/internal/metrics/metricsbuilder"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/internal/metrics/fork"
+	"github.com/zdyj3170101136/jaeger/internal/metrics/metricsbuilder"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
 )
 
 func TestAgentStartError(t *testing.T) {

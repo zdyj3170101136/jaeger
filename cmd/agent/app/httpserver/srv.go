@@ -22,9 +22,9 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/configmanager"
-	"github.com/jaegertracing/jaeger/pkg/clientcfg/clientcfghttp"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/configmanager"
+	"github.com/zdyj3170101136/jaeger/pkg/clientcfg/clientcfghttp"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 // NewHTTPServer creates a new server that hosts an HTTP/JSON endpoint for clients

@@ -21,7 +21,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 // Factory implements metrics.Factory backed by Prometheus registry.

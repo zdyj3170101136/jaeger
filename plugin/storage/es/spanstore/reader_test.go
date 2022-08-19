@@ -31,12 +31,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/es/mocks"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/spanstore/dbmodel"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/es/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/es/spanstore/dbmodel"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 const defaultMaxDocCount = 10_000

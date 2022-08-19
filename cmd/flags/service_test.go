@@ -24,8 +24,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/healthcheck"
 )
 
 func TestAddFlags(t *testing.T) {

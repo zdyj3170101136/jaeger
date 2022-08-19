@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	zipkinProto "github.com/jaegertracing/jaeger/proto-gen/zipkin"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	zipkinProto "github.com/zdyj3170101136/jaeger/proto-gen/zipkin"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 func TestProtoSpanFixtures(t *testing.T) {

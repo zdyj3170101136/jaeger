@@ -28,16 +28,16 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter"
-	grpcrep "github.com/jaegertracing/jaeger/cmd/agent/app/reporter/grpc"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/servers"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/servers/thriftudp"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/testutils"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/thrift-gen/agent"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/reporter"
+	grpcrep "github.com/zdyj3170101136/jaeger/cmd/agent/app/reporter/grpc"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/servers"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/servers/thriftudp"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/testutils"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/agent"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/jaeger"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 // TODO make these tests faster, they take almost 4 seconds

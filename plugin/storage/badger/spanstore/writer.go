@@ -24,7 +24,7 @@ import (
 	"github.com/dgraph-io/badger/v3"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 /*

@@ -17,9 +17,9 @@ package configmanager
 import (
 	"context"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/thrift-gen/baggage"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/baggage"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 // configManagerMetrics holds metrics related to ClientConfigManager

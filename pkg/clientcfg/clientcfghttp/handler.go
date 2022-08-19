@@ -24,9 +24,9 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/configmanager"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	tSampling "github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/configmanager"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	tSampling "github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 const mimeTypeApplicationJSON = "application/json"

@@ -20,10 +20,10 @@ import (
 
 	"github.com/uber/jaeger-client-go"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/model"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
 )
 
 const (

@@ -14,7 +14,7 @@
 
 package fork
 
-import "github.com/jaegertracing/jaeger/pkg/metrics"
+import "github.com/zdyj3170101136/jaeger/pkg/metrics"
 
 // Factory represents a metrics factory that delegates metrics with
 // forkNamespace to forkFactory otherwise - defaultFactory is used.

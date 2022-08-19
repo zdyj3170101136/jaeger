@@ -18,7 +18,7 @@ import (
 	"context"
 	"io"
 
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 // StrategyStore keeps track of service specific sampling strategies.

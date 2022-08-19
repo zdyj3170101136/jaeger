@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/es/config"
+	"github.com/zdyj3170101136/jaeger/pkg/bearertoken"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/es/config"
 )
 
 const (

@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore"
 )
 
 func TestGetLatencies(t *testing.T) {

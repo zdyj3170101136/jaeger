@@ -26,12 +26,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	ss "github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/pkg/distributedlock"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
+	ss "github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/pkg/distributedlock"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	"github.com/zdyj3170101136/jaeger/storage"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
 )
 
 func clearEnv() {

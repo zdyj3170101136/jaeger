@@ -25,8 +25,8 @@ import (
 	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/gorilla/mux"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	tJaeger "github.com/jaegertracing/jaeger/thrift-gen/jaeger"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/processor"
+	tJaeger "github.com/zdyj3170101136/jaeger/thrift-gen/jaeger"
 )
 
 const (

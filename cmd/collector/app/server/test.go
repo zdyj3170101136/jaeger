@@ -17,9 +17,9 @@ package server
 import (
 	"context"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/processor"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 type mockSamplingStore struct{}

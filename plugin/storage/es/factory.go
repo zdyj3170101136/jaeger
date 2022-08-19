@@ -23,15 +23,15 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/es"
-	"github.com/jaegertracing/jaeger/pkg/es/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	esDepStore "github.com/jaegertracing/jaeger/plugin/storage/es/dependencystore"
-	"github.com/jaegertracing/jaeger/plugin/storage/es/mappings"
-	esSpanStore "github.com/jaegertracing/jaeger/plugin/storage/es/spanstore"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/pkg/es"
+	"github.com/zdyj3170101136/jaeger/pkg/es/config"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	esDepStore "github.com/zdyj3170101136/jaeger/plugin/storage/es/dependencystore"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/es/mappings"
+	esSpanStore "github.com/zdyj3170101136/jaeger/plugin/storage/es/spanstore"
+	"github.com/zdyj3170101136/jaeger/storage/dependencystore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 const (

@@ -17,7 +17,7 @@ package multicloser
 import (
 	"io"
 
-	"github.com/jaegertracing/jaeger/pkg/multierror"
+	"github.com/zdyj3170101136/jaeger/pkg/multierror"
 )
 
 // MultiCloser wraps multiple io.Closer interfaces

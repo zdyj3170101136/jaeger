@@ -18,8 +18,8 @@ package spanstore
 import (
 	"context"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/multierror"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/multierror"
 )
 
 // CompositeWriter is a span Writer that tries to save spans into several underlying span Writers

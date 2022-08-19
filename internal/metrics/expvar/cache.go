@@ -18,7 +18,7 @@ package expvar
 import (
 	"sync"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 type cache struct {

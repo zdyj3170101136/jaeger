@@ -15,10 +15,10 @@
 package memory
 
 import (
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/grpc/shared"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/memory"
+	"github.com/zdyj3170101136/jaeger/storage/dependencystore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 var (

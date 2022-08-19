@@ -18,9 +18,9 @@ import (
 	"context"
 	"errors"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/thrift-gen/baggage"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/baggage"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 // ConfigManager implements ClientConfigManager.

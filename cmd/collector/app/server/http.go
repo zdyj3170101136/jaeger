@@ -22,14 +22,14 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	clientcfgHandler "github.com/jaegertracing/jaeger/pkg/clientcfg/clientcfghttp"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
-	"github.com/jaegertracing/jaeger/pkg/httpmetrics"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/recoveryhandler"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/handler"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	clientcfgHandler "github.com/zdyj3170101136/jaeger/pkg/clientcfg/clientcfghttp"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/healthcheck"
+	"github.com/zdyj3170101136/jaeger/pkg/httpmetrics"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/recoveryhandler"
 )
 
 // HTTPServerParams to construct a new Jaeger Collector HTTP Server

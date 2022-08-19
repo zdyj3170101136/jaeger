@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/memory"
 )
 
 type MemStorageIntegrationTestSuite struct {

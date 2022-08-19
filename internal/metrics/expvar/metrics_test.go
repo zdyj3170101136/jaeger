@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/uber/jaeger-lib/metrics"
 
-	"github.com/jaegertracing/jaeger/internal/metrics/expvar"
+	"github.com/zdyj3170101136/jaeger/internal/metrics/expvar"
 )
 
 func TestCounter(t *testing.T) {

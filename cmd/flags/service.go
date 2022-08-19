@@ -26,10 +26,10 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/metrics/metricsbuilder"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/ports"
+	"github.com/zdyj3170101136/jaeger/internal/metrics/metricsbuilder"
+	"github.com/zdyj3170101136/jaeger/pkg/healthcheck"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/ports"
 )
 
 // Service represents an abstract Jaeger backend component with some basic shared functionality.

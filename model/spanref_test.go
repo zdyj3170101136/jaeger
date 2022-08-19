@@ -22,7 +22,7 @@ import (
 	"github.com/gogo/protobuf/jsonpb"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 func TestSpanRefTypeToFromJSON(t *testing.T) {

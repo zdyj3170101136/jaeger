@@ -21,12 +21,12 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/distributedlock"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/pkg/distributedlock"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	"github.com/zdyj3170101136/jaeger/storage/dependencystore"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 var _ plugin.Configurable = (*Factory)(nil)

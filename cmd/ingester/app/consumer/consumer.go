@@ -22,9 +22,9 @@ import (
 	sc "github.com/bsm/sarama-cluster"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor"
-	"github.com/jaegertracing/jaeger/pkg/kafka/consumer"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor"
+	"github.com/zdyj3170101136/jaeger/pkg/kafka/consumer"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 // Params are the parameters of a Consumer

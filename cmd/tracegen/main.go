@@ -26,7 +26,7 @@ import (
 	"github.com/uber/jaeger-lib/metrics/prometheus"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/internal/tracegen"
+	"github.com/zdyj3170101136/jaeger/internal/tracegen"
 )
 
 var logger, _ = zap.NewDevelopment()

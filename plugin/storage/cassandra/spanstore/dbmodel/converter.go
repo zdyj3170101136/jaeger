@@ -18,7 +18,7 @@ package dbmodel
 import (
 	"fmt"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 var (

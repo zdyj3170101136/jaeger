@@ -1,4 +1,4 @@
-module github.com/jaegertracing/jaeger
+module github.com/zdyj3170101136/jaeger
 
 go 1.18
 

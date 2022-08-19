@@ -31,11 +31,11 @@ import (
 	promapi "github.com/prometheus/client_golang/api/prometheus/v1"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/pkg/prometheus/config"
-	"github.com/jaegertracing/jaeger/plugin/metrics/prometheus/metricsstore/dbmodel"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
+	"github.com/zdyj3170101136/jaeger/pkg/bearertoken"
+	"github.com/zdyj3170101136/jaeger/pkg/prometheus/config"
+	"github.com/zdyj3170101136/jaeger/plugin/metrics/prometheus/metricsstore/dbmodel"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore"
 )
 
 const (

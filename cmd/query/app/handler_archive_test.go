@@ -23,10 +23,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
-	spanstoremocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/zdyj3170101136/jaeger/cmd/query/app/querysvc"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
+	spanstoremocks "github.com/zdyj3170101136/jaeger/storage/spanstore/mocks"
 )
 
 func TestGetArchivedTrace_NotFound(t *testing.T) {

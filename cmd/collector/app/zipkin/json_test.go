@@ -24,7 +24,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 var (

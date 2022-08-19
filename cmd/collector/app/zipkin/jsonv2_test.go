@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/model/converter/thrift/zipkin"
-	"github.com/jaegertracing/jaeger/swagger-gen/models"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model/converter/thrift/zipkin"
+	"github.com/zdyj3170101136/jaeger/swagger-gen/models"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 func TestFixtures(t *testing.T) {

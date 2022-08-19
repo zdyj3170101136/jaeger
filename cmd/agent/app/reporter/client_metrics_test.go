@@ -25,10 +25,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/testutils"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/testutils"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/jaeger"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 type clientMetricsTest struct {

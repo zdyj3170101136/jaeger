@@ -21,7 +21,7 @@ import (
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 func TestDefaultTagFilter(t *testing.T) {

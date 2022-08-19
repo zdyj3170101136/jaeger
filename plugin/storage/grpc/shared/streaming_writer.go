@@ -21,9 +21,9 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/proto-gen/storage_v1"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/proto-gen/storage_v1"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 var _ spanstore.Writer = (*streamingSpanWriter)(nil)

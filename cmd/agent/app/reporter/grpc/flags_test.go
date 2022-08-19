@@ -23,7 +23,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
 )
 
 func TestBindFlags(t *testing.T) {

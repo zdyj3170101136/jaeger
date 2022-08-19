@@ -10,7 +10,7 @@ import (
 	"github.com/go-openapi/runtime"
 	"github.com/go-openapi/runtime/middleware"
 
-	"github.com/jaegertracing/jaeger/swagger-gen/restapi/operations"
+	"github.com/zdyj3170101136/jaeger/swagger-gen/restapi/operations"
 )
 
 //go:generate swagger generate server --target ../../swagger-gen --name ZipkinAPI --spec ../../idl/swagger/zipkin2-api.yaml --operation PostSpans --principal interface{} --exclude-main

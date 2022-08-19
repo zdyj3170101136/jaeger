@@ -18,8 +18,8 @@ package json
 import (
 	"strings"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/model/json"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model/json"
 )
 
 // FromDomain converts model.Trace into json.Trace format.

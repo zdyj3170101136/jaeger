@@ -25,11 +25,11 @@ import (
 	"github.com/stretchr/testify/mock"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/cassandra/mocks"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/model"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/cassandra/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
 )
 
 var testTime = time.Date(2017, time.January, 24, 11, 15, 17, 12345, time.UTC)

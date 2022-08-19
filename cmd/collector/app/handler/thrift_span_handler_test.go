@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer/zipkin"
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/processor"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sanitizer/zipkin"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/jaeger"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 func TestJaegerSpanHandler(t *testing.T) {

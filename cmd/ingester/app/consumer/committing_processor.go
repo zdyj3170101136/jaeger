@@ -18,7 +18,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor"
+	"github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor"
 )
 
 type comittingProcessor struct {

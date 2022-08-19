@@ -20,9 +20,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor"
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor/mocks"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor"
+	"github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor/mocks"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
 )
 
 type fakeMsg struct{}

@@ -28,10 +28,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	tSampling092 "github.com/jaegertracing/jaeger/pkg/clientcfg/clientcfghttp/thrift-0.9.2"
-	"github.com/jaegertracing/jaeger/thrift-gen/baggage"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	tSampling092 "github.com/zdyj3170101136/jaeger/pkg/clientcfg/clientcfghttp/thrift-0.9.2"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/baggage"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 type testServer struct {

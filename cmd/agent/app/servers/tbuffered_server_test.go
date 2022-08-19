@@ -27,12 +27,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/customtransport"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/servers/thriftudp"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/testutils"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/thrift-gen/agent"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/customtransport"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/servers/thriftudp"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/testutils"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/agent"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 func TestTBufferedServer_SendReceive(t *testing.T) {

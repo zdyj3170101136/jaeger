@@ -25,15 +25,15 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/flags"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/handler"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/processor"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/cmd/collector/app/server"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/flags"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/handler"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/processor"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/server"
+	"github.com/zdyj3170101136/jaeger/pkg/healthcheck"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/tenancy"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 const (

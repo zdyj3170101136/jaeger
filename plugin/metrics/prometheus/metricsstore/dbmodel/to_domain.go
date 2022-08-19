@@ -20,7 +20,7 @@ import (
 	"github.com/gogo/protobuf/types"
 	"github.com/prometheus/common/model"
 
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2/metrics"
 )
 
 // ToDomainMetricsFamily converts Prometheus' representation of metrics query results to Jaeger's.

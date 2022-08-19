@@ -24,7 +24,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 var errSamplingRateMissing = errors.New("sampling rate is missing")

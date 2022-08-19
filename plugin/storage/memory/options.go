@@ -19,7 +19,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/pkg/memory/config"
+	"github.com/zdyj3170101136/jaeger/pkg/memory/config"
 )
 
 const limit = "memory.max-traces"

@@ -29,11 +29,11 @@ import (
 	"google.golang.org/grpc/resolver"
 	"google.golang.org/grpc/resolver/manual"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/discovery"
-	"github.com/jaegertracing/jaeger/pkg/discovery/grpcresolver"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/reporter"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/discovery"
+	"github.com/zdyj3170101136/jaeger/pkg/discovery/grpcresolver"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 // ConnBuilder Struct to hold configurations

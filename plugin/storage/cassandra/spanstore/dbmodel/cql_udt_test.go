@@ -23,8 +23,8 @@ import (
 	"github.com/gocql/gocql"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/cassandra/gocql/testutils"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/cassandra/gocql/testutils"
 )
 
 func TestDBModelUDTMarshall(t *testing.T) {

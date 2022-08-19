@@ -24,12 +24,12 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/plugin/sampling/calculationstrategy"
-	"github.com/jaegertracing/jaeger/plugin/sampling/leaderelection"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/model"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/plugin/sampling/calculationstrategy"
+	"github.com/zdyj3170101136/jaeger/plugin/sampling/leaderelection"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 const (

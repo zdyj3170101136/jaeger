@@ -17,7 +17,7 @@ package config
 import (
 	"time"
 
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
 )
 
 // Configuration describes the options to customize the storage behavior.

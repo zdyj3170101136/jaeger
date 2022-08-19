@@ -31,16 +31,16 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/querysvc"
-	"github.com/jaegertracing/jaeger/model"
-	uiconv "github.com/jaegertracing/jaeger/model/converter/json"
-	ui "github.com/jaegertracing/jaeger/model/json"
-	"github.com/jaegertracing/jaeger/pkg/multierror"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/plugin/metrics/disabled"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/metricsstore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/cmd/query/app/querysvc"
+	"github.com/zdyj3170101136/jaeger/model"
+	uiconv "github.com/zdyj3170101136/jaeger/model/converter/json"
+	ui "github.com/zdyj3170101136/jaeger/model/json"
+	"github.com/zdyj3170101136/jaeger/pkg/multierror"
+	"github.com/zdyj3170101136/jaeger/pkg/tenancy"
+	"github.com/zdyj3170101136/jaeger/plugin/metrics/disabled"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/metricsstore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 const (

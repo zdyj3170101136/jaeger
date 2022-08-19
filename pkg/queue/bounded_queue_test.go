@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/require"
 	uatomic "go.uber.org/atomic"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 // In this test we run a queue with capacity 1 and a single consumer.

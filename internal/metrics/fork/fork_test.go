@@ -18,8 +18,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 var _ metrics.Factory = (*Factory)(nil)

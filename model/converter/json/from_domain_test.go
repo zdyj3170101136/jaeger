@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/model"
-	jModel "github.com/jaegertracing/jaeger/model/json"
+	"github.com/zdyj3170101136/jaeger/model"
+	jModel "github.com/zdyj3170101136/jaeger/model/json"
 )
 
 const NumberOfFixtures = 1

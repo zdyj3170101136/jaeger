@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/mock"
 
-	cmocks "github.com/jaegertracing/jaeger/cmd/ingester/app/consumer/mocks"
-	"github.com/jaegertracing/jaeger/model"
-	umocks "github.com/jaegertracing/jaeger/pkg/kafka/mocks"
-	smocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	cmocks "github.com/zdyj3170101136/jaeger/cmd/ingester/app/consumer/mocks"
+	"github.com/zdyj3170101136/jaeger/model"
+	umocks "github.com/zdyj3170101136/jaeger/pkg/kafka/mocks"
+	smocks "github.com/zdyj3170101136/jaeger/storage/spanstore/mocks"
 )
 
 func TestNewSpanProcessor(t *testing.T) {

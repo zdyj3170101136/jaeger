@@ -23,7 +23,7 @@ import (
 	"github.com/kr/pretty"
 	"github.com/stretchr/testify/assert"
 
-	esJson "github.com/jaegertracing/jaeger/model/json"
+	esJson "github.com/zdyj3170101136/jaeger/model/json"
 )
 
 func CompareJSONSpans(t *testing.T, expected *esJson.Span, actual *esJson.Span) {

@@ -20,7 +20,7 @@ import (
 	"github.com/Shopify/sarama"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
 )
 
 func setTLSConfiguration(config *tlscfg.Options, saramaConfig *sarama.Config, logger *zap.Logger) error {

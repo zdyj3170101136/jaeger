@@ -15,7 +15,7 @@
 package static
 
 import (
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 const (

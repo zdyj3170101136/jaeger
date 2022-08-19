@@ -20,11 +20,11 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/configmanager"
-	grpcManager "github.com/jaegertracing/jaeger/cmd/agent/app/configmanager/grpc"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/multicloser"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/configmanager"
+	grpcManager "github.com/zdyj3170101136/jaeger/cmd/agent/app/configmanager/grpc"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/reporter"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/multicloser"
 )
 
 // ProxyBuilder holds objects communicating with collector

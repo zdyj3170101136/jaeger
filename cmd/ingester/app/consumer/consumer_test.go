@@ -29,12 +29,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	kmocks "github.com/jaegertracing/jaeger/cmd/ingester/app/consumer/mocks"
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor"
-	pmocks "github.com/jaegertracing/jaeger/cmd/ingester/app/processor/mocks"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/kafka/consumer"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
+	kmocks "github.com/zdyj3170101136/jaeger/cmd/ingester/app/consumer/mocks"
+	"github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor"
+	pmocks "github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor/mocks"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/kafka/consumer"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
 )
 
 //go:generate mockery -dir ../../../../pkg/kafka/config/ -name Consumer

@@ -19,7 +19,7 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/cmd/es-rollover/app"
+	"github.com/zdyj3170101136/jaeger/cmd/es-rollover/app"
 )
 
 const (

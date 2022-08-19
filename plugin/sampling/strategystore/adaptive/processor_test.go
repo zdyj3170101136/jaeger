@@ -25,14 +25,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/model"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/sampling/calculationstrategy"
-	epmocks "github.com/jaegertracing/jaeger/plugin/sampling/leaderelection/mocks"
-	smocks "github.com/jaegertracing/jaeger/storage/samplingstore/mocks"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/model"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/plugin/sampling/calculationstrategy"
+	epmocks "github.com/zdyj3170101136/jaeger/plugin/sampling/leaderelection/mocks"
+	smocks "github.com/zdyj3170101136/jaeger/storage/samplingstore/mocks"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 func testThroughputs() []*model.Throughput {

@@ -24,10 +24,10 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/httperr"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/tracing"
-	"github.com/jaegertracing/jaeger/pkg/httpfs"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/httperr"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/log"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/tracing"
+	"github.com/zdyj3170101136/jaeger/pkg/httpfs"
 )
 
 //go:embed web_assets/*

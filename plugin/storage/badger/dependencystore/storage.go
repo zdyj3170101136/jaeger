@@ -18,8 +18,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 // DependencyStore handles all queries and insertions to Badger dependencies

@@ -15,9 +15,9 @@
 package zipkin
 
 import (
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/swagger-gen/models"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/swagger-gen/models"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 func spansV2ToThrift(spans models.ListOfSpans) ([]*zipkincore.Span, error) {

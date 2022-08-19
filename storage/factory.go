@@ -20,18 +20,18 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/distributedlock"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	metricsstore "github.com/jaegertracing/jaeger/storage/metricsstore"
-	"github.com/jaegertracing/jaeger/storage/samplingstore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/pkg/distributedlock"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/dependencystore"
+	metricsstore "github.com/zdyj3170101136/jaeger/storage/metricsstore"
+	"github.com/zdyj3170101136/jaeger/storage/samplingstore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 // Factory defines an interface for a factory that can create implementations of different storage components.
 // Implementations are also encouraged to implement plugin.Configurable interface.
 //
-// See also
+// # See also
 //
 // plugin.Configurable
 type Factory interface {
@@ -78,7 +78,7 @@ type ArchiveFactory interface {
 // MetricsFactory defines an interface for a factory that can create implementations of different metrics storage components.
 // Implementations are also encouraged to implement plugin.Configurable interface.
 //
-// See also
+// # See also
 //
 // plugin.Configurable
 type MetricsFactory interface {

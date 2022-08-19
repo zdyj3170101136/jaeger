@@ -25,9 +25,9 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/model"
-	uiconv "github.com/jaegertracing/jaeger/model/converter/json"
-	uimodel "github.com/jaegertracing/jaeger/model/json"
+	"github.com/zdyj3170101136/jaeger/model"
+	uiconv "github.com/zdyj3170101136/jaeger/model/converter/json"
+	uimodel "github.com/zdyj3170101136/jaeger/model/json"
 )
 
 var allowedTags = map[string]bool{

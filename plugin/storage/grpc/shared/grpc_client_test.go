@@ -28,11 +28,11 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/pkg/bearertoken"
-	"github.com/jaegertracing/jaeger/proto-gen/storage_v1"
-	grpcMocks "github.com/jaegertracing/jaeger/proto-gen/storage_v1/mocks"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/pkg/bearertoken"
+	"github.com/zdyj3170101136/jaeger/proto-gen/storage_v1"
+	grpcMocks "github.com/zdyj3170101136/jaeger/proto-gen/storage_v1/mocks"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 var (

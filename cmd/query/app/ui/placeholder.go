@@ -21,7 +21,7 @@ import (
 	"embed"
 	"net/http"
 
-	"github.com/jaegertracing/jaeger/pkg/httpfs"
+	"github.com/zdyj3170101136/jaeger/pkg/httpfs"
 )
 
 //go:embed placeholder/index.html

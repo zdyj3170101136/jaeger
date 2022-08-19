@@ -19,7 +19,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 // Writer stores service dependencies into storage.

@@ -17,9 +17,9 @@ package sampling
 import (
 	"context"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/model/converter/thrift/jaeger"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/model/converter/thrift/jaeger"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2"
 )
 
 // GRPCHandler is sampling strategy handler for gRPC.

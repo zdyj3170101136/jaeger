@@ -25,7 +25,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/log"
 )
 
 // Client is a remote client that implements driver.Interface

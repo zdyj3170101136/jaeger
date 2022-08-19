@@ -23,8 +23,8 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/pkg/cassandra/config"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/cassandra/config"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
 )
 
 const (

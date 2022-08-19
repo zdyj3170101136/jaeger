@@ -30,9 +30,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	ui "github.com/jaegertracing/jaeger/model/json"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v3"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	ui "github.com/zdyj3170101136/jaeger/model/json"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v3"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 const (

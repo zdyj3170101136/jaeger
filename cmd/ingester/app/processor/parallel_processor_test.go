@@ -20,8 +20,8 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/ingester/app/processor"
-	mockProcessor "github.com/jaegertracing/jaeger/cmd/ingester/app/processor/mocks"
+	"github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor"
+	mockProcessor "github.com/zdyj3170101136/jaeger/cmd/ingester/app/processor/mocks"
 )
 
 type fakeMessage struct{}

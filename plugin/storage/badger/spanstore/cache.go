@@ -21,7 +21,7 @@ import (
 
 	"github.com/dgraph-io/badger/v3"
 
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 // CacheStore saves expensive calculations from the K/V store

@@ -23,9 +23,9 @@ import (
 	"github.com/uber/jaeger-lib/metrics"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/httperr"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/tracing"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/httperr"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/log"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/tracing"
 )
 
 // Server implements Customer service

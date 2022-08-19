@@ -28,10 +28,10 @@ import (
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/healthcheck"
-	"github.com/jaegertracing/jaeger/pkg/recoveryhandler"
-	"github.com/jaegertracing/jaeger/pkg/version"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/healthcheck"
+	"github.com/zdyj3170101136/jaeger/pkg/recoveryhandler"
+	"github.com/zdyj3170101136/jaeger/pkg/version"
 )
 
 const (

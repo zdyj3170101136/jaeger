@@ -22,10 +22,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/config/tlscfg"
-	"github.com/jaegertracing/jaeger/pkg/kafka/auth"
-	"github.com/jaegertracing/jaeger/plugin/storage/kafka"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/config/tlscfg"
+	"github.com/zdyj3170101136/jaeger/pkg/kafka/auth"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/kafka"
 )
 
 func TestOptionsWithFlags(t *testing.T) {

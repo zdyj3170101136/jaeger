@@ -31,16 +31,16 @@ import (
 	"go.uber.org/zap"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/jaegertracing/jaeger/cmd/agent/app/configmanager"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter"
-	"github.com/jaegertracing/jaeger/cmd/agent/app/reporter/grpc"
-	"github.com/jaegertracing/jaeger/internal/metrics/fork"
-	"github.com/jaegertracing/jaeger/internal/metricstest"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/thrift-gen/baggage"
-	"github.com/jaegertracing/jaeger/thrift-gen/jaeger"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
-	"github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/configmanager"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/reporter"
+	"github.com/zdyj3170101136/jaeger/cmd/agent/app/reporter/grpc"
+	"github.com/zdyj3170101136/jaeger/internal/metrics/fork"
+	"github.com/zdyj3170101136/jaeger/internal/metricstest"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/baggage"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/jaeger"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 var yamlConfig = `

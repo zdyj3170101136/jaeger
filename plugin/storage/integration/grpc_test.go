@@ -29,13 +29,13 @@ import (
 	"go.uber.org/zap"
 	googleGRPC "google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc"
-	grpcMemory "github.com/jaegertracing/jaeger/plugin/storage/grpc/memory"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc/shared"
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/grpc"
+	grpcMemory "github.com/zdyj3170101136/jaeger/plugin/storage/grpc/memory"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/grpc/shared"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/memory"
 )
 
 const (

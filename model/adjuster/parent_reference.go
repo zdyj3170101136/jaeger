@@ -15,7 +15,7 @@
 package adjuster
 
 import (
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 // ParentReference returns an Adjuster that puts CHILD_OF references first.

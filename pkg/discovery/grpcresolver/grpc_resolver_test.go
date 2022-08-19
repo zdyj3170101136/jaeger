@@ -30,7 +30,7 @@ import (
 	"google.golang.org/grpc/resolver"
 	grpctest "google.golang.org/grpc/test/grpc_testing"
 
-	"github.com/jaegertracing/jaeger/pkg/discovery"
+	"github.com/zdyj3170101136/jaeger/pkg/discovery"
 )
 
 type testServer struct {

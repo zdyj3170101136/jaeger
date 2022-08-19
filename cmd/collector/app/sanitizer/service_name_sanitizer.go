@@ -16,8 +16,8 @@
 package sanitizer
 
 import (
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer/cache"
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sanitizer/cache"
+	"github.com/zdyj3170101136/jaeger/model"
 )
 
 // NewServiceNameSanitizer creates a service name sanitizer.

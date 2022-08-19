@@ -25,7 +25,7 @@ import (
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/log"
 )
 
 // Server implements jaeger-demo-frontend service

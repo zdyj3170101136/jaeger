@@ -20,7 +20,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	zc "github.com/jaegertracing/jaeger/thrift-gen/zipkincore"
+	zc "github.com/zdyj3170101136/jaeger/thrift-gen/zipkincore"
 )
 
 func TestCoreChecks(t *testing.T) {

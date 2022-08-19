@@ -26,9 +26,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/jaegertracing/jaeger/model"
-	"github.com/jaegertracing/jaeger/proto-gen/api_v2/metrics"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/model"
+	"github.com/zdyj3170101136/jaeger/proto-gen/api_v2/metrics"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 var errParseInt = `strconv.ParseInt: parsing "string": invalid syntax`

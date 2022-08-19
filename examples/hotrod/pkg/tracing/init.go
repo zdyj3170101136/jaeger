@@ -25,7 +25,7 @@ import (
 	"github.com/uber/jaeger-lib/metrics"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/examples/hotrod/pkg/log"
+	"github.com/zdyj3170101136/jaeger/examples/hotrod/pkg/log"
 )
 
 // Init creates a new instance of Jaeger tracer.

@@ -23,9 +23,9 @@ import (
 
 	"github.com/spf13/viper"
 
-	"github.com/jaegertracing/jaeger/pkg/kafka/auth"
-	kafkaConsumer "github.com/jaegertracing/jaeger/pkg/kafka/consumer"
-	"github.com/jaegertracing/jaeger/plugin/storage/kafka"
+	"github.com/zdyj3170101136/jaeger/pkg/kafka/auth"
+	kafkaConsumer "github.com/zdyj3170101136/jaeger/pkg/kafka/consumer"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/kafka"
 )
 
 const (

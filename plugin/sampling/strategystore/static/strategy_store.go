@@ -29,8 +29,8 @@ import (
 
 	"go.uber.org/zap"
 
-	ss "github.com/jaegertracing/jaeger/cmd/collector/app/sampling/strategystore"
-	"github.com/jaegertracing/jaeger/thrift-gen/sampling"
+	ss "github.com/zdyj3170101136/jaeger/cmd/collector/app/sampling/strategystore"
+	"github.com/zdyj3170101136/jaeger/thrift-gen/sampling"
 )
 
 // null represents "null" JSON value and

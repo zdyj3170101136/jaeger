@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/sanitizer"
-	"github.com/jaegertracing/jaeger/plugin/storage/kafka"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/sanitizer"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/kafka"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 //go:generate mockery -name=KafkaSpanProcessor

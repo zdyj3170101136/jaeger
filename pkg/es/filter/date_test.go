@@ -20,7 +20,7 @@ import (
 
 	"github.com/crossdock/crossdock-go/assert"
 
-	"github.com/jaegertracing/jaeger/pkg/es/client"
+	"github.com/zdyj3170101136/jaeger/pkg/es/client"
 )
 
 func TestByDate(t *testing.T) {

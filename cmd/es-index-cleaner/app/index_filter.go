@@ -19,8 +19,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/jaegertracing/jaeger/pkg/es/client"
-	"github.com/jaegertracing/jaeger/pkg/es/filter"
+	"github.com/zdyj3170101136/jaeger/pkg/es/client"
+	"github.com/zdyj3170101136/jaeger/pkg/es/filter"
 )
 
 // IndexFilter holds configuration for index filtering.

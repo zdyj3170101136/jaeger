@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
 )
 
 func TestCollectorOptionsWithFlags_CheckHostPort(t *testing.T) {

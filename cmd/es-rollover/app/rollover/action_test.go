@@ -20,9 +20,9 @@ import (
 
 	"github.com/crossdock/crossdock-go/assert"
 
-	"github.com/jaegertracing/jaeger/cmd/es-rollover/app"
-	"github.com/jaegertracing/jaeger/pkg/es/client"
-	"github.com/jaegertracing/jaeger/pkg/es/client/mocks"
+	"github.com/zdyj3170101136/jaeger/cmd/es-rollover/app"
+	"github.com/zdyj3170101136/jaeger/pkg/es/client"
+	"github.com/zdyj3170101136/jaeger/pkg/es/client/mocks"
 )
 
 func TestRolloverAction(t *testing.T) {

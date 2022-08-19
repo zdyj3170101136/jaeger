@@ -22,12 +22,12 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/cmd/collector/app/flags"
-	cmdFlags "github.com/jaegertracing/jaeger/cmd/flags"
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/tenancy"
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
+	"github.com/zdyj3170101136/jaeger/cmd/collector/app/flags"
+	cmdFlags "github.com/zdyj3170101136/jaeger/cmd/flags"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/tenancy"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/memory"
 )
 
 func TestNewSpanHandlerBuilder(t *testing.T) {

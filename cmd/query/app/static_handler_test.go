@@ -35,9 +35,9 @@ import (
 	"go.uber.org/zap/zapcore"
 	"go.uber.org/zap/zaptest/observer"
 
-	"github.com/jaegertracing/jaeger/cmd/query/app/mocks"
-	"github.com/jaegertracing/jaeger/pkg/fswatcher"
-	"github.com/jaegertracing/jaeger/pkg/testutils"
+	"github.com/zdyj3170101136/jaeger/cmd/query/app/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/fswatcher"
+	"github.com/zdyj3170101136/jaeger/pkg/testutils"
 )
 
 //go:generate mockery -all -dir ../../../pkg/fswatcher

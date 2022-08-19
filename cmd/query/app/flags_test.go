@@ -25,10 +25,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/config"
-	"github.com/jaegertracing/jaeger/ports"
-	"github.com/jaegertracing/jaeger/storage/mocks"
-	spanstore_mocks "github.com/jaegertracing/jaeger/storage/spanstore/mocks"
+	"github.com/zdyj3170101136/jaeger/pkg/config"
+	"github.com/zdyj3170101136/jaeger/ports"
+	"github.com/zdyj3170101136/jaeger/storage/mocks"
+	spanstore_mocks "github.com/zdyj3170101136/jaeger/storage/spanstore/mocks"
 )
 
 func TestQueryBuilderFlags(t *testing.T) {

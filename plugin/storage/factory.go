@@ -23,18 +23,18 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 
-	"github.com/jaegertracing/jaeger/pkg/metrics"
-	"github.com/jaegertracing/jaeger/pkg/multierror"
-	"github.com/jaegertracing/jaeger/plugin"
-	"github.com/jaegertracing/jaeger/plugin/storage/badger"
-	"github.com/jaegertracing/jaeger/plugin/storage/cassandra"
-	"github.com/jaegertracing/jaeger/plugin/storage/es"
-	"github.com/jaegertracing/jaeger/plugin/storage/grpc"
-	"github.com/jaegertracing/jaeger/plugin/storage/kafka"
-	"github.com/jaegertracing/jaeger/plugin/storage/memory"
-	"github.com/jaegertracing/jaeger/storage"
-	"github.com/jaegertracing/jaeger/storage/dependencystore"
-	"github.com/jaegertracing/jaeger/storage/spanstore"
+	"github.com/zdyj3170101136/jaeger/pkg/metrics"
+	"github.com/zdyj3170101136/jaeger/pkg/multierror"
+	"github.com/zdyj3170101136/jaeger/plugin"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/badger"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/cassandra"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/es"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/grpc"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/kafka"
+	"github.com/zdyj3170101136/jaeger/plugin/storage/memory"
+	"github.com/zdyj3170101136/jaeger/storage"
+	"github.com/zdyj3170101136/jaeger/storage/dependencystore"
+	"github.com/zdyj3170101136/jaeger/storage/spanstore"
 )
 
 const (
@@ -237,8 +237,9 @@ func (f *Factory) AddFlags(flagSet *flag.FlagSet) {
 }
 
 // AddPipelineFlags adds all the standard flags as well as the downsampling
-//  flags.  This is intended to be used in Jaeger pipeline services such as
-//  the collector or ingester.
+//
+//	flags.  This is intended to be used in Jaeger pipeline services such as
+//	the collector or ingester.
 func (f *Factory) AddPipelineFlags(flagSet *flag.FlagSet) {
 	f.AddFlags(flagSet)
 	f.addDownsamplingFlags(flagSet)

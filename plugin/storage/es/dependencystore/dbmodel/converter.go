@@ -14,7 +14,7 @@
 
 package dbmodel
 
-import "github.com/jaegertracing/jaeger/model"
+import "github.com/zdyj3170101136/jaeger/model"
 
 // FromDomainDependencies converts model dependencies to database representation
 func FromDomainDependencies(dLinks []model.DependencyLink) []DependencyLink {
